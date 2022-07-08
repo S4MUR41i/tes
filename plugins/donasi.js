@@ -1,7 +1,7 @@
 let handler = async m => m.reply(`
-            .✵.𝗚𝗥𝗨𝗣 𝗣𝗘𝗡𝗧𝗔𝗕𝗢𝗧.✵.
+            *Jangan Lupa Join Grub AminBot*
 
-            https://chat.whatsapp.com/ElBB5NrJS637TYqjJLHuk2
+            https://chat.whatsapp.com/ID36jYZjlYz7E4zus4SBed
 `.trim()) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['info']

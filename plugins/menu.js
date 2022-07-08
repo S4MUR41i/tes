@@ -37,10 +37,10 @@ let tags = {
 const defaultMenu = {
   before: `
 ╔════════════════╗
-╠➤👤𝙊𝙬𝙣𝙚𝙧 : ${global.ownername}
-╠➤💻𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : 𝙂𝙚𝙢𝙥𝙮
-╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
-╠➤🗓️𝙏𝙖𝙣𝙜𝙜𝙖𝙡: %date
+╠➤👤Nama : ${global.ownername}
+╠➤🕺Hobby : Menyanyi,Menari,Belajar
+╠➤🥰Kesukaan : Loli,Mie,Maya
+╠➤🗿Tidak Suka:  Kang Satir 🗿
 ╚═══════╦════════╝
 ╔═══════╩════════╗
 ║ 〘𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙼𝚄〙
@@ -157,11 +157,11 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    let url = `https://i.postimg.cc/nrMn3sMN/menu.jpg`
-    conn.sendHydrated(m.chat, text.trim(), 'ℙ𝔼𝕄𝔹𝕌𝔸𝕋 𝕊ℂ ➢ 𝔾𝔼𝕄ℙ𝕐', null, 'https://www.youtube.com/channel/UCZoVmApPxtLYgUWwBD4nbCw', 'ʏᴏᴜᴛᴜʙᴇ ɢᴇᴍᴘʏ', '', '', [
-      ['𝗚𝗥𝗨𝗣 𝗕𝗢𝗧', '/donasi'],
-      ['𝗝𝗔𝗦𝗔 𝗥𝗨𝗡', '/sewa'],
-      ['✿𝗢𝗪𝗡𝗘𝗥✿', '/owner']
+    let url = `https://telegra.ph/file/6caa87794b1f20336bdd2.jpg`
+    conn.sendHydrated(m.chat, text.trim(), 'Instagram', null, 'instagram.com/saya_asroriamin', 'Instagram', '', '', [
+      ['Grub', '/donasi'],
+      ['Sewa', '/sewa'],
+      ['Owner', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
